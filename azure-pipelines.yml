@@ -20,6 +20,7 @@ steps:
     npm install -g @angular/cli
     npm install
     ng build --prod
+    ls -ls
   displayName: 'npm install and build'
   
 - task: CopyFiles@2
